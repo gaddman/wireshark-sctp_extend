@@ -1,7 +1,7 @@
-# wireshark-sctp_extend
+# wireshark-sctpextend
 A Wireshark LUA script to display some additional SCTP information
 
-This is a dissector script which adds a new tree to the Wireshark view, _SCTP extended info_. Developed initially to provide relative TSNs (analagous to the TCP dissector's use of relative SEQ).
+This is a dissector script which adds a new tree to the Wireshark view, _SCTP extended info_. Developed initially to provide relative TSNs (similar to the TCP dissector's use of relative SEQ).
 
 * **rel_tsn**: relative Transmission Sequence Number
 * **rel_tsn_ack**: relative Transmission Sequence Number ACKnowledgement
